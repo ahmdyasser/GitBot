@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		96BFD2AC2835E84400D4DF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2AB2835E84400D4DF54 /* AppDelegate.swift */; };
 		96BFD2AE2835E84400D4DF54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2AD2835E84400D4DF54 /* SceneDelegate.swift */; };
-		96BFD2B02835E84400D4DF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2AF2835E84400D4DF54 /* ViewController.swift */; };
 		96BFD2B62835E84400D4DF54 /* GitBot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2B42835E84400D4DF54 /* GitBot.xcdatamodeld */; };
 		96BFD2B82835E84900D4DF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BFD2B72835E84900D4DF54 /* Assets.xcassets */; };
 		96BFD2BB2835E84900D4DF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BFD2B92835E84900D4DF54 /* LaunchScreen.storyboard */; };
 		96BFD2C62835E84900D4DF54 /* GitBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2C52835E84900D4DF54 /* GitBotTests.swift */; };
 		96BFD2D02835E84900D4DF54 /* GitBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2CF2835E84900D4DF54 /* GitBotUITests.swift */; };
 		96BFD2D22835E84900D4DF54 /* GitBotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2D12835E84900D4DF54 /* GitBotUITestsLaunchTests.swift */; };
+		96C638E22836C95E001CAC57 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E12836C95E001CAC57 /* SearchViewController.swift */; };
+		96C638E42836C982001CAC57 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E32836C982001CAC57 /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		96BFD2A82835E84400D4DF54 /* GitBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BFD2AB2835E84400D4DF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96BFD2AD2835E84400D4DF54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		96BFD2AF2835E84400D4DF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96BFD2B52835E84400D4DF54 /* GitBot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitBot.xcdatamodel; sourceTree = "<group>"; };
 		96BFD2B72835E84900D4DF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96BFD2BA2835E84900D4DF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		96BFD2CB2835E84900D4DF54 /* GitBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BFD2CF2835E84900D4DF54 /* GitBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitBotUITests.swift; sourceTree = "<group>"; };
 		96BFD2D12835E84900D4DF54 /* GitBotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitBotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96C638E12836C95E001CAC57 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		96C638E32836C982001CAC57 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				96BFD2AB2835E84400D4DF54 /* AppDelegate.swift */,
 				96BFD2AD2835E84400D4DF54 /* SceneDelegate.swift */,
-				96BFD2AF2835E84400D4DF54 /* ViewController.swift */,
+				96C638E12836C95E001CAC57 /* SearchViewController.swift */,
+				96C638E32836C982001CAC57 /* FavoritesViewController.swift */,
 				96BFD2B72835E84900D4DF54 /* Assets.xcassets */,
 				96BFD2B92835E84900D4DF54 /* LaunchScreen.storyboard */,
 				96BFD2BC2835E84900D4DF54 /* Info.plist */,
@@ -258,8 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96BFD2B62835E84400D4DF54 /* GitBot.xcdatamodeld in Sources */,
-				96BFD2B02835E84400D4DF54 /* ViewController.swift in Sources */,
 				96BFD2AC2835E84400D4DF54 /* AppDelegate.swift in Sources */,
+				96C638E22836C95E001CAC57 /* SearchViewController.swift in Sources */,
+				96C638E42836C982001CAC57 /* FavoritesViewController.swift in Sources */,
 				96BFD2AE2835E84400D4DF54 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
