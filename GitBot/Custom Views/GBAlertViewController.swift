@@ -24,7 +24,7 @@ class GBAlertViewController: UIViewController {
         super.init(nibName: nil, bundle: nil)
         self.alertTitle = title
         self.message = message
-        self.alertTitle = buttonTitle
+        self.buttonTitle = buttonTitle
     }
     
     required init?(coder: NSCoder) {

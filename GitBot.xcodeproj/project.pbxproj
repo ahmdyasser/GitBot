@@ -115,21 +115,10 @@
 		96BFD2AA2835E84400D4DF54 /* GitBot */ = {
 			isa = PBXGroup;
 			children = (
-				96BFD2AB2835E84400D4DF54 /* AppDelegate.swift */,
-				96BFD2AD2835E84400D4DF54 /* SceneDelegate.swift */,
-				96C638E12836C95E001CAC57 /* SearchViewController.swift */,
-				96C638E32836C982001CAC57 /* FavoritesViewController.swift */,
-				96BFD2B72835E84900D4DF54 /* Assets.xcassets */,
-				96BFD2B92835E84900D4DF54 /* LaunchScreen.storyboard */,
-				96BFD2BC2835E84900D4DF54 /* Info.plist */,
-				96BFD2B42835E84400D4DF54 /* GitBot.xcdatamodeld */,
-				96C638E52837189F001CAC57 /* GBButton.swift */,
-				96C638E728371C01001CAC57 /* GBTextField.swift */,
-				96C638E928372BC0001CAC57 /* FollowerListViewController.swift */,
-				96C638EB283732DC001CAC57 /* GBTitleLabel.swift */,
-				96C638ED28373431001CAC57 /* GBBodyLabel.swift */,
-				96C638EF283734E7001CAC57 /* GBAlertViewController.swift */,
-				96C638F128373C5B001CAC57 /* UIViewController+Ext.swift */,
+				96C638F528377775001CAC57 /* Extensions */,
+				96C638F42837774B001CAC57 /* Custom Views */,
+				96C638F3283776F6001CAC57 /* Screens */,
+				96C638F6283777DC001CAC57 /* Support */,
 			);
 			path = GitBot;
 			sourceTree = "<group>";
@@ -149,6 +138,49 @@
 				96BFD2D12835E84900D4DF54 /* GitBotUITestsLaunchTests.swift */,
 			);
 			path = GitBotUITests;
+			sourceTree = "<group>";
+		};
+		96C638F3283776F6001CAC57 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				96C638E928372BC0001CAC57 /* FollowerListViewController.swift */,
+				96C638E32836C982001CAC57 /* FavoritesViewController.swift */,
+				96C638E12836C95E001CAC57 /* SearchViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		96C638F42837774B001CAC57 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				96C638EF283734E7001CAC57 /* GBAlertViewController.swift */,
+				96C638E52837189F001CAC57 /* GBButton.swift */,
+				96C638E728371C01001CAC57 /* GBTextField.swift */,
+				96C638EB283732DC001CAC57 /* GBTitleLabel.swift */,
+				96C638ED28373431001CAC57 /* GBBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		96C638F528377775001CAC57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				96C638F128373C5B001CAC57 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		96C638F6283777DC001CAC57 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				96BFD2AB2835E84400D4DF54 /* AppDelegate.swift */,
+				96BFD2AD2835E84400D4DF54 /* SceneDelegate.swift */,
+				96BFD2B72835E84900D4DF54 /* Assets.xcassets */,
+				96BFD2B92835E84900D4DF54 /* LaunchScreen.storyboard */,
+				96BFD2BC2835E84900D4DF54 /* Info.plist */,
+				96BFD2B42835E84400D4DF54 /* GitBot.xcdatamodeld */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,7 +495,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6G5MP9XUH9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitBot/Info.plist;
+				INFOPLIST_FILE = GitBot/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -491,7 +523,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6G5MP9XUH9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitBot/Info.plist;
+				INFOPLIST_FILE = GitBot/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

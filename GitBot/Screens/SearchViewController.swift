@@ -10,7 +10,7 @@ import UIKit
 class SearchViewController: UIViewController {
     let logoImageView = UIImageView()
     let usernameTextField = GBTextField()
-    let callToActionButton = GBButton(backgroundColor: .systemGreen, title: "Get Followers")
+    let callToActionButton = GBButton(backgroundColor: .systemCyan, title: "Get Followers")
     
     var isUsernameEntered: Bool { !usernameTextField.text!.isEmpty }
     override func viewDidLoad() {
