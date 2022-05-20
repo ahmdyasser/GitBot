@@ -17,6 +17,9 @@
 		96BFD2D22835E84900D4DF54 /* GitBotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2D12835E84900D4DF54 /* GitBotUITestsLaunchTests.swift */; };
 		96C638E22836C95E001CAC57 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E12836C95E001CAC57 /* SearchViewController.swift */; };
 		96C638E42836C982001CAC57 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E32836C982001CAC57 /* FavoritesViewController.swift */; };
+		96C638E62837189F001CAC57 /* GBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E52837189F001CAC57 /* GBButton.swift */; };
+		96C638E828371C01001CAC57 /* GBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E728371C01001CAC57 /* GBTextField.swift */; };
+		96C638EA28372BC0001CAC57 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E928372BC0001CAC57 /* FollowerListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		96BFD2D12835E84900D4DF54 /* GitBotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitBotUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		96C638E12836C95E001CAC57 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		96C638E32836C982001CAC57 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		96C638E52837189F001CAC57 /* GBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBButton.swift; sourceTree = "<group>"; };
+		96C638E728371C01001CAC57 /* GBTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBTextField.swift; sourceTree = "<group>"; };
+		96C638E928372BC0001CAC57 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				96BFD2B92835E84900D4DF54 /* LaunchScreen.storyboard */,
 				96BFD2BC2835E84900D4DF54 /* Info.plist */,
 				96BFD2B42835E84400D4DF54 /* GitBot.xcdatamodeld */,
+				96C638E52837189F001CAC57 /* GBButton.swift */,
+				96C638E728371C01001CAC57 /* GBTextField.swift */,
+				96C638E928372BC0001CAC57 /* FollowerListViewController.swift */,
 			);
 			path = GitBot;
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C638EA28372BC0001CAC57 /* FollowerListViewController.swift in Sources */,
+				96C638E828371C01001CAC57 /* GBTextField.swift in Sources */,
+				96C638E62837189F001CAC57 /* GBButton.swift in Sources */,
 				96BFD2B62835E84400D4DF54 /* GitBot.xcdatamodeld in Sources */,
 				96BFD2AC2835E84400D4DF54 /* AppDelegate.swift in Sources */,
 				96C638E22836C95E001CAC57 /* SearchViewController.swift in Sources */,
