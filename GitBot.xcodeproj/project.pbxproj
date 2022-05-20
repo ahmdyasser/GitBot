@@ -20,6 +20,10 @@
 		96C638E62837189F001CAC57 /* GBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E52837189F001CAC57 /* GBButton.swift */; };
 		96C638E828371C01001CAC57 /* GBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E728371C01001CAC57 /* GBTextField.swift */; };
 		96C638EA28372BC0001CAC57 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638E928372BC0001CAC57 /* FollowerListViewController.swift */; };
+		96C638EC283732DC001CAC57 /* GBTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638EB283732DC001CAC57 /* GBTitleLabel.swift */; };
+		96C638EE28373431001CAC57 /* GBBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638ED28373431001CAC57 /* GBBodyLabel.swift */; };
+		96C638F0283734E7001CAC57 /* GBAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638EF283734E7001CAC57 /* GBAlertViewController.swift */; };
+		96C638F228373C5B001CAC57 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638F128373C5B001CAC57 /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		96C638E52837189F001CAC57 /* GBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBButton.swift; sourceTree = "<group>"; };
 		96C638E728371C01001CAC57 /* GBTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBTextField.swift; sourceTree = "<group>"; };
 		96C638E928372BC0001CAC57 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
+		96C638EB283732DC001CAC57 /* GBTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBTitleLabel.swift; sourceTree = "<group>"; };
+		96C638ED28373431001CAC57 /* GBBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBBodyLabel.swift; sourceTree = "<group>"; };
+		96C638EF283734E7001CAC57 /* GBAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBAlertViewController.swift; sourceTree = "<group>"; };
+		96C638F128373C5B001CAC57 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,10 @@
 				96C638E52837189F001CAC57 /* GBButton.swift */,
 				96C638E728371C01001CAC57 /* GBTextField.swift */,
 				96C638E928372BC0001CAC57 /* FollowerListViewController.swift */,
+				96C638EB283732DC001CAC57 /* GBTitleLabel.swift */,
+				96C638ED28373431001CAC57 /* GBBodyLabel.swift */,
+				96C638EF283734E7001CAC57 /* GBAlertViewController.swift */,
+				96C638F128373C5B001CAC57 /* UIViewController+Ext.swift */,
 			);
 			path = GitBot;
 			sourceTree = "<group>";
@@ -269,14 +281,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C638EC283732DC001CAC57 /* GBTitleLabel.swift in Sources */,
 				96C638EA28372BC0001CAC57 /* FollowerListViewController.swift in Sources */,
+				96C638F228373C5B001CAC57 /* UIViewController+Ext.swift in Sources */,
 				96C638E828371C01001CAC57 /* GBTextField.swift in Sources */,
 				96C638E62837189F001CAC57 /* GBButton.swift in Sources */,
 				96BFD2B62835E84400D4DF54 /* GitBot.xcdatamodeld in Sources */,
+				96C638F0283734E7001CAC57 /* GBAlertViewController.swift in Sources */,
 				96BFD2AC2835E84400D4DF54 /* AppDelegate.swift in Sources */,
 				96C638E22836C95E001CAC57 /* SearchViewController.swift in Sources */,
 				96C638E42836C982001CAC57 /* FavoritesViewController.swift in Sources */,
 				96BFD2AE2835E84400D4DF54 /* SceneDelegate.swift in Sources */,
+				96C638EE28373431001CAC57 /* GBBodyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
