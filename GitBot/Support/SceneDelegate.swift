@@ -16,8 +16,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let searchNC = createSearchNC()
-        let favoritesNC = createFavoritesNC()
+//        let searchNC = createSearchNC()
+//        let favoritesNC = createFavoritesNC()
         
         
         

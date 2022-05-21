@@ -25,7 +25,7 @@ class SearchViewController: UIViewController {
     // this got called every time the appears not like didLoad which will load only one time
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     func configureLogoImageView() {
