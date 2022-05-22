@@ -10,8 +10,9 @@ import UIKit
 class GBFollowerCell: UICollectionViewCell {
     
     static let reuseID = "FollowerCell"
-    let avatarImageView = GBImageView(frame: .zero)
+    let avatarImageView = GBAvatarImageView(frame: .zero)
     let usernameLabel = GBTitleLabel(textAlignment: .center, fontSize: 16)
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -38,8 +39,8 @@ class GBFollowerCell: UICollectionViewCell {
             avatarImageView.heightAnchor.constraint(equalTo: avatarImageView.widthAnchor),
             
             usernameLabel.topAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: 12),
-            usernameLabel.leadingAnchor.constraint(equalTo: avatarImageView.leadingAnchor, constant: padding),
-            usernameLabel.trailingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: -1 * padding),
+            usernameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: padding),
+            usernameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -1 * padding),
             usernameLabel.heightAnchor.constraint(equalToConstant: 20)
             
         ])

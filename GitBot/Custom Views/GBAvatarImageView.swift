@@ -1,5 +1,5 @@
 //
-//  GBImageView.swift
+//  GBAvatarImageView.swift
 //  GitBot
 //
 //  Created by Ahmad Yasser on 22/05/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GBImageView: UIImageView {
+class GBAvatarImageView: UIImageView {
     
     let placeholder = UIImage(named: "avatar-placeholder")!
     

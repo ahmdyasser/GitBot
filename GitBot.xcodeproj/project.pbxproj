@@ -10,7 +10,7 @@
 		96259FD52838691200278C1A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96259FD42838691200278C1A /* NetworkManager.swift */; };
 		96259FD92838849800278C1A /* GBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96259FD82838849800278C1A /* GBError.swift */; };
 		969337872839B4F000ABA392 /* GBFollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969337862839B4F000ABA392 /* GBFollowerCell.swift */; };
-		9693378A2839B56A00ABA392 /* GBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969337892839B56A00ABA392 /* GBImageView.swift */; };
+		9693378A2839B56A00ABA392 /* GBAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969337892839B56A00ABA392 /* GBAvatarImageView.swift */; };
 		96BFD2AC2835E84400D4DF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2AB2835E84400D4DF54 /* AppDelegate.swift */; };
 		96BFD2AE2835E84400D4DF54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2AD2835E84400D4DF54 /* SceneDelegate.swift */; };
 		96BFD2B62835E84400D4DF54 /* GitBot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96BFD2B42835E84400D4DF54 /* GitBot.xcdatamodeld */; };
@@ -53,7 +53,7 @@
 		96259FD42838691200278C1A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		96259FD82838849800278C1A /* GBError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBError.swift; sourceTree = "<group>"; };
 		969337862839B4F000ABA392 /* GBFollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBFollowerCell.swift; sourceTree = "<group>"; };
-		969337892839B56A00ABA392 /* GBImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBImageView.swift; sourceTree = "<group>"; };
+		969337892839B56A00ABA392 /* GBAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBAvatarImageView.swift; sourceTree = "<group>"; };
 		96BFD2A82835E84400D4DF54 /* GitBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BFD2AB2835E84400D4DF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96BFD2AD2835E84400D4DF54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 				969337882839B4F400ABA392 /* Cells */,
 				96C638EF283734E7001CAC57 /* GBAlertViewController.swift */,
 				96C638E52837189F001CAC57 /* GBButton.swift */,
-				969337892839B56A00ABA392 /* GBImageView.swift */,
+				969337892839B56A00ABA392 /* GBAvatarImageView.swift */,
 				96C638E728371C01001CAC57 /* GBTextField.swift */,
 				96C638EB283732DC001CAC57 /* GBTitleLabel.swift */,
 				96C638ED28373431001CAC57 /* GBBodyLabel.swift */,
@@ -364,7 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96C638EC283732DC001CAC57 /* GBTitleLabel.swift in Sources */,
-				9693378A2839B56A00ABA392 /* GBImageView.swift in Sources */,
+				9693378A2839B56A00ABA392 /* GBAvatarImageView.swift in Sources */,
 				96C638EA28372BC0001CAC57 /* FollowerListViewController.swift in Sources */,
 				96C638F228373C5B001CAC57 /* UIViewController+Ext.swift in Sources */,
 				96C638E828371C01001CAC57 /* GBTextField.swift in Sources */,
