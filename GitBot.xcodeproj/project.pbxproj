@@ -30,6 +30,7 @@
 		96C638F228373C5B001CAC57 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638F128373C5B001CAC57 /* UIViewController+Ext.swift */; };
 		96C638FB28377C80001CAC57 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638FA28377C80001CAC57 /* Follower.swift */; };
 		96C638FD28377D7F001CAC57 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C638FC28377D7F001CAC57 /* User.swift */; };
+		96CE69312852EDF800095777 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE69302852EDF800095777 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		96C638F128373C5B001CAC57 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		96C638FA28377C80001CAC57 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		96C638FC28377D7F001CAC57 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		96CE69302852EDF800095777 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				96259FD82838849800278C1A /* GBError.swift */,
+				96CE69302852EDF800095777 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				96C638E22836C95E001CAC57 /* SearchViewController.swift in Sources */,
 				96C638E42836C982001CAC57 /* FavoritesViewController.swift in Sources */,
 				96259FD92838849800278C1A /* GBError.swift in Sources */,
+				96CE69312852EDF800095777 /* UIHelper.swift in Sources */,
 				96259FD52838691200278C1A /* NetworkManager.swift in Sources */,
 				96BFD2AE2835E84400D4DF54 /* SceneDelegate.swift in Sources */,
 				96C638EE28373431001CAC57 /* GBBodyLabel.swift in Sources */,
