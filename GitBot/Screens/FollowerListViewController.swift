@@ -65,14 +65,17 @@ class FollowerListViewController: UIViewController {
         DispatchQueue.main.async { self.dataSource.apply(snapshot, animatingDifferences: true) }
     }
     func getFollowers(username: String, page: Int) {
+        showLoadingView()
         NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
-            guard let self = self else { return }
             
+            guard let self = self else { return }
+            self.dismissLoadingView()
             switch result {
             case .success(let followers):
                 if followers.count < 100 { self.hasMoreFollowers = false}
                 self.followers.append(contentsOf: followers)
                 self.updateData()
+                
             case .failure(let error):
                 self.presentGFAlertOnMainThread(title: "Bad stuff happened", message: error.rawValue, buttonTitle: "Ok")
             }
